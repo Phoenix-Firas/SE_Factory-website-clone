@@ -323,4 +323,28 @@ opacity: 0.5;
     color: var(--green-bg-color)
 }
 
+#in_the_media-section {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background: rgb(221, 221, 221);
+}
+
+#in_the_media-section div {
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#in_the_media-section h1 {
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+#in_the_media-section img {}
 
