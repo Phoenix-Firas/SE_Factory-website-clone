@@ -142,7 +142,7 @@ header img{
 .graduates{
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 100px;
     height: fit-content;
 }
@@ -153,6 +153,7 @@ header img{
             flex-wrap: wrap;
     }
 }
+
 .skills img,
 .graduates img{
     transform: scale(0.8);
@@ -186,16 +187,13 @@ header img{
 }
 
 #graduates-section{
-    /* position: relative;
-    top: 350vh;
-    left: -200vw; */
-    /* margin-left: 15%; */
     display: flex;
     flex-wrap: wrap;
 
 }
 
-.graduates p{
+.graduates p
+.skills p{
     width:400px;
 }
 
@@ -223,11 +221,6 @@ header img{
     width:100%;
 }
 
-/* .quotations{
-    font-size: 90px;
-    background: red;
-} */
-
 .about-se{
     font-weight: bolder;
     max-width: 750px;
@@ -245,9 +238,6 @@ opacity: 0.5;
 }
 
 #program-section{
-    /* position: absolute;
-    top: 250vh;
-    width: 100vw; */
     background: var(--green-bg-color);
     display: flex;
     flex-direction: column;
@@ -271,7 +261,7 @@ opacity: 0.5;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 40px;
-    margin-bottom: 90px;
+    margin-bottom: 10vh;
 }
 
 .course-1,
@@ -281,7 +271,7 @@ opacity: 0.5;
     background-color: #ececec;
     border-radius: 10px;
     box-shadow: 5px 5px 0px black;
-    margin: 0px 4vw 0px 4vw;
+    margin: 2vh 4vw 2vh 4vw;
 }
 
 .course-1 h3,
