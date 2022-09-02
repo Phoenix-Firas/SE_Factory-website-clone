@@ -11,7 +11,7 @@
 
 html{
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 body{
@@ -139,7 +139,7 @@ header img{
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 140px;
+    margin-top: 100px;
 }
 
 .skills img{
@@ -165,7 +165,92 @@ header img{
 
 .skills a {
     margin-top: 30px;
-
     font-size: 23px;
     color: var(--green-bg-color);
+}
+
+#program-section{
+    position: absolute;
+    top: 250vh;
+    width: 100vw;
+    background: var(--green-bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#program-section h1{
+    color:white;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+#program-section h1  {
+    margin-top: 60px;
+    font-weight: bolder;
+}
+
+.courses{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+
+.course-1{
+    margin-right: 4vw;
+}
+
+.course-2 {
+    margin-left: 4vw;
+}
+
+.course-1,
+.course-2 {
+    padding: 30px;
+    max-width:300px;
+    background-color: #ececec;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px black;
+}
+
+.course-1 h3,
+.course-2 h3{
+    color: rgb(180, 180, 180);
+    margin-bottom: 20px;
+}
+
+.course-1 h2,
+.course-2 h2{
+    margin-bottom: 20px;
+}
+
+.course-1 hr,
+.course-2 hr {
+    height: 4px;
+    background-color: black;
+    margin-bottom: 30px;
+    width: 20px;
+}
+
+.course-1 p,
+.course-2 p {
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.course-1 a, 
+.course-2 a{
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.course-2 a span,
+.course-1 a span{
+    font-weight: bolder;
+    color: var(--green-bg-color)
 }
