@@ -7,7 +7,6 @@
 * {
     margin: 0;
     padding: 0;
-        color: black;
 }
 
 html {
@@ -17,36 +16,40 @@ html {
 
 body {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     font-family: 'Roboto', sans-serif;
-    color: black;
 }
 
 header {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 30vw 70vw;
+    width: 80vw;
+    margin-left: 8vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 header img {
     width: 80px;
-    margin: 15px 0px 0px 8vw;
+    margin: 20px 0px 0px 0vw;
 }
 
 .header-links {
     margin-top: 40px;
     padding: 0 100px;
-    display: flex;
-    justify-content: space-around;
 }
 
-.header-links a {
+.header-links a,
+.apply-now {
     text-decoration: none;
+    color:black;
     font-size: 16px;
     font-weight: bold;
-    color: black;
+    margin-left: 25px;
 }
 
-.header-links a:nth-child(4) {
+.header-links a:nth-child(1) {
     text-decoration: underline;
 }
 
@@ -56,4 +59,31 @@ header img {
     height: 20px;
     padding: 8px 16px;
     margin-top: -10px;
+}
+
+.fqas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fqas h1{
+    display: flex;
+    font-size: 50px;
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+
+.questions{
+    margin-top: 10vh;
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+.question div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 20px ;
 }
